@@ -1,0 +1,51 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 30px;
+  padding: 20px;
+  background-color: #ccc;
+}
+
+.btn {
+  text-decoration: none;
+  background: white;
+  color: #888;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 8px;
+  margin: 8px;
+  font-size: 20px;
+}
+
+.btn--red {
+  background: #FF4136;
+}
+
+.btn--blue {
+  background: #0074D9;
+}
+
+.btn--green {
+  background: #3D9970;
+}
+
+.btn--big {
+  font-size: 30px;
+  color: white;
+}
+
+.btn__text {
+  padding: 0 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+.btn__price {
+  font-size: 30px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: -10px;
+  color: white;
+  background: #333;
+  opacity: .4;
+  border-radius: 5px 0 0 5px;
+}
+/*# sourceMappingURL=style.css.map */

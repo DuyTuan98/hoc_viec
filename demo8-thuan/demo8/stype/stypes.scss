@@ -1,0 +1,45 @@
+.nav{
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+.btn{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    padding:0 15px;
+    font-size: 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    margin: 10px 0;
+    &--while{
+        background-color: white;
+    }
+    &--red{
+        background-color: #ff4136;
+    }
+    &--blue{
+        background-color: #0074d9;
+    }
+    &--green{
+        background-color: #3d9970;
+    }
+    &--big{
+        span{
+            font-size: 30px;
+        }
+    }
+    &__price{
+        padding: 5px 15px;
+        background-color:rgb(66, 66, 66);
+        border-radius:7px 0 0 7px;
+        opacity: 0.5;
+    }
+    &__text{
+        color:white ;
+    }
+}

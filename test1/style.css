@@ -1,0 +1,134 @@
+body{  margin: 0;padding: 0;}
+header{background-color: black;display: flex;}
+.logo{width: 150px;height: 70px;margin-left: 70px;}
+.head{ color: red; text-align: center;font-size: 16px;}
+main{margin: 10px 100px 10px 100px;}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    background-color: white;
+    margin:5px;
+    color: black;
+    grid-row-gap: 12px;
+  }
+.grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6 {
+    background-color:rgb(212, 198, 198);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black ;
+    margin-right: 10px;
+  }
+img{  width: 100%;  transition: transform 1s}
+img:hover{ transform: scale(1.2); }
+.name{font-weight: normal; font-size: 12px;text-align: left;}
+.price{font-size: 20px;}
+
+.grid-item1{order:2;}
+.grid-item2{order:1;}
+.grid-item3{order:3;}
+.grid-item4{order:4;}
+.grid-item5{order:5;}
+.grid-item6{order:6;}
+
+  @media only screen and (max-width:1190px){
+  .head{ color: red; text-align: center;font-size: 16px;}
+   main{margin: 10px 100px 10px 100px;}
+  .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        background-color: white;
+        /* padding: 10px; */
+        margin:5px;
+        text-align: center;
+        color: black;
+        grid-row-gap: 12px;
+         /* padding-left: 80px;  */
+      /* padding-right: 80px; */
+      }
+  .grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6 {
+        background-color: rgb(212, 198, 198);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+  img{ width: 100%;transition: transform 1s;}
+  img:hover{transform: scale(1.2); }
+  .name{font-weight: normal;font-size: 12px;}
+  .price{font-size: 20px;}
+  .grid-item1{order:4;}
+  .grid-item2{order:3;}
+  .grid-item3{order:2;}
+  .grid-item4{order:1;}
+  .grid-item5{order:6;}
+  .grid-item6{order:5;}
+}
+  @media only screen and (max-width:767px){
+    .head{ color: red; text-align: center;font-size: 12px;}
+    main{margin: 0px 0px 0px 0px;}
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        background-color: white;
+        /* padding: 10px; */
+        margin:5px;
+        text-align: center;
+        color: black;
+        grid-row-gap: 12px;
+         /* padding-left: 80px;  */
+      /* padding-right: 80px; */
+      }
+      .grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6 {
+        background-color: rgb(212, 198, 198);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        color: black;
+      }
+      img{ width: 100%;transition: transform 1s;}
+      img:hover{transform: scale(1.2); }
+      .name{font-weight: normal;font-size: 12px;}
+      .price{font-size: 20px;}
+      .price{font-size: 20px;}
+      .grid-item1{order:3;}
+      .grid-item2{order:2;}
+      .grid-item3{order:1;}
+      .grid-item4{order:6;}
+      .grid-item5{order:5;}
+      .grid-item6{order:4;}
+    }
+  @media only screen and (max-width:414px){
+   .head{ color: red; text-align: center;font-size: 10px;}
+    main{margin: 0px 0px 0px 0px;}
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      background-color: white;
+      /* padding: 10px; */
+      margin:5px;
+      text-align: center;
+      color: black;
+      grid-row-gap: 12px;
+      /* padding-left: 80px;  */
+   /* padding-right: 80px; */
+    }
+    .grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6 {
+        background-color: rgb(212, 198, 198);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        
+      }
+    img{width: 100%;transition: transform 1s;}
+    img:hover{ transform: scale(1.2); }
+    .name{font-weight: normal;font-size: 12px;}
+    .price{font-size: 20px;}
+    .grid-item1{order:2;}
+    .grid-item2{order:1;}
+    .grid-item3{order:4;}
+    .grid-item4{order:3;}
+    .grid-item5{order:6;}
+    .grid-item6{order:5;}
+    
+  }
+  

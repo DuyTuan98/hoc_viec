@@ -1,0 +1,86 @@
+
+    html,body{margin: 0;padding: 0;}
+    body{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 97%;
+        height: 500px;
+        margin: auto;
+        border: 1px solid rgb(192, 190, 190);
+        box-shadow: 2px 2px 5px rgb(230, 227, 227);
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: -1px;
+    }
+  
+    nav{
+        display: flex;
+        /* flex-direction:row; */
+        background-color: rgb(22, 22, 22);
+        /* justify-content: flex-start; */
+        
+    }
+    nav a{
+        height: 50px;
+        padding:0 10px;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+    nav .dropdown-content{
+        display: flex;  
+    }
+    nav a:hover{
+        background-color: rgb(27, 143, 61);
+    }
+    #home {background-color: rgb(17, 170, 63);}
+    #home .icon{display: none;}
+
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+        /* menu */
+        .icon:after{
+            content:"";  
+            background: url('nav-icon.png') no-repeat;  
+            width: 30px;  
+            height: 30px;  
+            display: inline-block;  
+            position: fixed;  
+            right: 10px;  
+            top: 15px;  
+            
+        }
+        nav .dropdown-content{display: none;}
+        nav:hover .dropdown-content {
+            display: block;
+        }
+        nav{display: flex;flex-direction: column;}
+    
+        nav #home .text{background-color: rgb(17, 170, 63);}
+    
+        nav #home {display: flex;background-color: black;}
+    
+        nav #home a div {color: white;background-color: aqua;}
+    
+        nav #home  .icon{ 
+            padding: 15px 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+        nav #home .text{
+            display: block;
+            margin-left:-10px;
+            padding: 16px;
+            
+        }
+        nav #home{
+            opacity: 1;
+            visibility: visible;
+            
+        }
+        .gray{background-color: rgb(196, 196, 196);color: rgb(12, 11, 11);}
+        nav #home:hover{background-color: rgb(17, 170, 63);
+        }
+    
+}

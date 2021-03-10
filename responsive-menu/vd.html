@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vd.css">   
+     <title>menu</title>
+
+    <style>
+        div {background-color: #0a0101ba;}
+        div a {
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+          padding: 15px;
+          display:inline-block;
+        }
+        ul {
+          display: inline;
+          margin: 0;
+          padding: 0;
+        }
+        ul li {display: inline-block;}
+        ul li:hover {background: green;}
+        ul li:hover ul {display: block;}
+        ul li:hover #pull {display: none;}
+        
+        ul li ul {
+          position: absolute;
+          width: 200px;
+          display: none;
+        }
+        ul li ul li { 
+          background: #555; 
+          display: block; 
+        }
+        ul li ul li a {display:block !important;} 
+        ul li ul li:hover {background:#0a0101ba ;}
+        </style>
+        
+</head>
+
+<body>
+
+<div>
+  <ul> <li><a class="active" href="#home">Home</a></li>
+    <li>
+      <a href="#" id="pull"></a> 
+     
+      <ul>
+  
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+    
+    </ul>
+
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+.color1{
+   background-color: red; 
+   height: 50px;
+   font-size: 25px;
+}
+.color2{ 
+    background-color:orange ;
+    height: 50px;
+    font-size: 25px;
+}
+.color3{
+    background-color:yellow ;
+    height: 50px;
+    font-size: 25px;
+}
+.color4{
+    background-color:green ;
+    height: 50px;
+    font-size: 25px;
+}
+.color5{
+    background-color:blue ;
+    height: 50px;
+    font-size: 25px;
+}
+.color6{
+    background-color:indigo ;
+    height: 50px;
+    font-size: 25px;
+}
+.color7{
+    background-color:violet ;
+    height: 50px;
+    font-size: 25px;
+}
+
+
+/* .color-odd {
+    background-color: red;
+} 
+/* div:nth-child(odd) {
+    background: red;
+ } */
+/*
+.color-even{
+    background-color: blue;
+}  */
+/* 
+ .color-odd,.color-even{
+   opacity: 0;
+   transition: all ease 0.8s;
+}
+.color-odd:hover{
+    opacity: 1;
+}
+.color-even:hover{
+    opacity: 1;
+} */
+
+/* Hide all after yellow */
+/* .color-after{
+    opacity: 0;
+} */
+/* div:nth-child(n+4) {
+    opacity: 0;
+ } */
+
+/* .color1{
+    background-image: linear-gradient(to right, red 50%, blue 50%);
+} */
+ 

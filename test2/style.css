@@ -1,0 +1,104 @@
+body{margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas:
+    ' Header Header Header Header '
+    ' LeftSide Body Body RightSide '
+    ' Footer Footer Footer Footer ';
+    text-align: center;  
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
+           /*hover*/
+    /* body:hover{grid-template-areas:
+        '  Footer Footer Footer Footer'        
+        ' RightSide Body Body LeftSide '
+        ' Header Header Header Header';} */
+/*Switch Footer and Header*/
+ /* body{margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas:
+    ' Footer Footer Footer Footer '
+    ' LeftSide Body Body RightSide '
+    ' Header Header Header Header';
+    text-align: center;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    } */
+/*Switch Right side and Left side*/
+    /* body{margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-areas:
+        ' Header Header Header Header'
+        ' RightSide Body Body LeftSide '
+        ' Footer Footer Footer Footer ';
+        text-align: center;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    } */
+/* Switch Body and header*/ 
+    /* body{margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-areas:
+        ' Body Body Body Body  '
+        ' LeftSide Header Header RightSide '
+        ' Footer Footer Footer Footer ';
+        text-align: center;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    } */
+/*Switch Body and footer*/
+   /* body{margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas:
+    ' Header Header Header Header '
+    ' LeftSide Footer Footer RightSide '
+    ' Body Body Body Body ';
+    text-align: center;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+   }     */
+header { grid-area: Header; background-color: brown;height: 100px;position:sticky;
+    /* position:sticky; top: 0; */
+}
+.item2 { grid-area: LeftSide;background-color: cadetblue;height: 800px; }
+.item3 { grid-area: Body; background-color: darkorchid;height: 800px; position: relative; }
+.item4 { grid-area: RightSide;background-color: forestgreen;height: 800px; }
+footer { grid-area: Footer; background-color: khaki;height: 100px;position:sticky; bottom: 0; }
+
+.test{
+    background-color: cornsilk;
+    position: absolute;
+    top:0;
+   width: 10px;
+   height: 10px;
+}
+
+/*responsive*/
+ @media only screen and (max-width:1024px){ 
+    body{
+        grid-template-areas:
+    ' Header Header Header'
+    ' LeftSide Body Body '
+    ' RightSide RightSide RightSide'
+    ' Footer Footer Footer '; 
+    }
+}
+
+
+ @media only screen and (max-width:767px){
+    body{
+        grid-template-areas:
+    ' Header Header '
+    ' LeftSide LeftSide '
+    ' Body Body '
+    ' RightSide RightSide '
+    ' Footer Footer '; 
+    }
+ }
+
+    

@@ -1,0 +1,120 @@
+
+/* body {
+  font-family: sans-serif;
+
+  background-color: #ece8e5;
+}
+
+div ul {  
+  padding: 0;  
+  margin: 0 auto;  
+  width: 600px;  
+  height: 40px;   
+ }  
+div ul li a{
+  color: white;
+  text-decoration: none;
+}  
+a:hover {
+background-color: rgb(8, 63, 8) ;
+display: block;
+  }
+div li {
+       list-style-type: none;
+      color: #f1f1f1;
+      background:#3e3939eb ;
+      display: contents;
+      width: 140px;
+      /* height: 40px; 
+      line-height: 40px;
+      margin-left: -5px; 
+      text-align: center;
+    }
+
+
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+} */
+/* ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}  */
+/* @media only screen and (max-width: 600px){
+  div {background-color: green;}
+ul li {display: inline-block;}
+ul li:hover .menu1{background: green; }
+ul li:hover .menu2{background: #443e3eed;}
+ul li:hover .menu3{background: #c7d7e496;}
+ul li:hover .menu4{background: #443e3eed;}
+ul li:hover ul {display: contents;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
+a#pull:after{
+            content:"";  
+            background: url('nav-icon.png') no-repeat;  
+            width: 30px;  
+            height: 30px;  
+            display: inline-block;  
+            position: fixed;  
+            right: 20px;  
+            top: 26px;  
+            
+        }
+         a#pull{
+            display: block;
+            width: 100%;
+            position: relative;
+        }
+        .second{
+            display: none;
+            height: auto;
+            position: absolute;
+           /* padding-top: 40px; 
+        }
+      } */
+body{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 97%;
+  height: 500px;
+  margin: auto;
+  border: 1px solid rgb(192, 190, 190);
+  box-shadow: 2px 2px 5px rgb(230, 227, 227);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: -1px;
+}
+menu{
+  display: flex;
+  background: #0b0a0ac4;  
+  padding: 20px;
+}
+menu a{
+  text-decoration: none;
+  color: white;
+  padding-right: 15px  ;
+}
+menu .dropdown-content{
+    display: flex; 
+}
+menu a:hover{
+  background: green;
+}
+#home {
+  background: green;
+}

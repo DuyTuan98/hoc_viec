@@ -1,0 +1,134 @@
+/* html,body{
+    margin: 0;padding: 0;
+   
+} */
+body{
+    border: 1px solid rgb(192, 190, 190);
+    margin: 68px 47px 62px 37px ;
+    box-shadow: 2px 2px 5px rgb(230, 227, 227);
+}
+header{
+    margin-left: 20px;
+    margin-bottom: -30px;
+} 
+header h1{
+    font-size: 45px;
+    margin-bottom: -18px;
+    margin-top: 7px;
+    color: #282829d4;
+}
+header div p{
+    margin-bottom: -35px;
+}
+header .table1{
+    margin-left: -10px;
+ }
+header .heat{
+    float: right ;
+    font-size: 30px;
+    margin-bottom: -12px;
+}
+header img{
+    padding-top: 24px;
+}
+header td .heat{
+    font-size: 45px;
+    margin-top: 28px; 
+    color: #282829d4;
+}
+#F{
+    position: relative;
+    /* top: -17px; */
+    font-size: 15px;
+    color:rgb(133, 133, 133);
+}
+
+header table .top{
+    margin-left: 24em; 
+    color:rgb(133, 133, 133);
+    }
+
+.table2{
+    text-align: center;
+    margin-top: 35px;
+}
+.table2 td{
+    
+    padding-left: 30px; ;
+    padding-right: 45px;
+    
+}
+.table2 td .about{
+    display: inline-flex;
+    margin-top: -18px;
+}
+.table2 td .about .head{
+    margin-top: 15px;
+    margin-right: 9px;
+}
+.table2 td .Pollen{
+    margin-top: -13px;
+    margin-left: 3px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+   
+    header .heat{
+        display: inline;
+           }
+    header div{
+        margin-left: 20px;
+    }
+    header {
+        border-bottom: 1px solid #685d5d;
+        margin-left: 6px;
+    }
+    table td{
+        display: flex;
+        margin-left: -5px;
+    }
+    header .table1 {
+        margin-left: 0px;
+        margin-top: -22px;
+    }
+    header div p {
+        margin-bottom: -20px;
+    }
+    header table .top {
+        margin-left: 20em;
+        color: rgb(133, 133, 133);
+        margin-top: -72px;
+        padding-left: 33px;
+    }
+    .table2 {
+        text-align: center;
+        margin-top: 30px;
+        border-bottom: 1.5px solid rgb(221, 217, 217);
+        align-items: center;
+    }
+    /* .table2 td b{
+        margin-right: 10px;
+    } */
+    .table2 td{
+        /* border-top: 1px solid #685d5d; */
+        border-bottom: 1px solid #685d5d;
+        margin-bottom: 0px;
+        margin-top: 17px;
+        padding-right: 245px;
+    }
+    .table2 td .about{
+        display: block;
+        margin-left: 138px;
+        margin-right: 146px;
+    }
+    .table2 td img{
+        margin-left: 84px;
+    }
+    .table2 td .after{
+        margin-left: -9px;
+    }
+    .table2 td b{
+        padding-top: 12px;
+    }
+}

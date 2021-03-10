@@ -1,0 +1,1 @@
+﻿lấy ajax đọc file json

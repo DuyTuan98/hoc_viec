@@ -1,0 +1,62 @@
+.nav {
+  background-color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0 10px 0;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
+  font-size: 20px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: #777777;
+  margin: 10px 0;
+}
+
+.btn--while {
+  background-color: white;
+}
+
+.btn--red {
+  background-color: #ff4136;
+}
+
+.btn--blue {
+  background-color: #0074d9;
+}
+
+.btn--green {
+  background-color: #3d9970;
+}
+
+.btn--big span {
+  font-size: 30px;
+}
+
+.btn__price {
+  padding: 5px 15px;
+  background-color: #424242;
+  border-radius: 7px 0 0 7px;
+  opacity: 0.5;
+}
+
+.btn__text {
+  color: white;
+}
+/*# sourceMappingURL=stypes.css.map */
